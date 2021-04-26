@@ -1,13 +1,27 @@
 body {
     background-color:white;
 }
+#searchbar_box {
+    width: auto;
+    border: 1px solid #dfe1e5;
+    display: flex;
+
+}
 input {
     border:none;
+    padding: 0;
+    word-wrap: break-word;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
 }
 .center {
     display: block;
     align-items: center;
     justify-content: center;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
@@ -29,7 +43,4 @@ nav div a{
     white-space: nowrap;
     text-decoration: none;
     color: #3b3b3b;
-}
-input {
-    margin: auto;
 }
