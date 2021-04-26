@@ -2,9 +2,12 @@ body {
     background-color:white;
 }
 .center{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 nav{
     width: 100%;
