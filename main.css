@@ -1,7 +1,10 @@
 body {
     background-color:white;
 }
-.center{
+input {
+    border:none;
+}
+.center {
     display: block;
     align-items: center;
     justify-content: center;
@@ -26,4 +29,7 @@ nav div a{
     white-space: nowrap;
     text-decoration: none;
     color: #3b3b3b;
+}
+input {
+    margin: auto;
 }
