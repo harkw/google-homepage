@@ -1,30 +1,29 @@
 body {
     background-color:white;
 }
-#searchbar_box {
-    width: auto;
-    border: 1px solid #dfe1e5;
-    display: flex;
-
-}
-input {
-    border:none;
-    padding: 0;
-    word-wrap: break-word;
-    display: flex;
-    flex: 100%;
-    margin-top: -37px;
-    height: 34px;
-    font-size: 16px;
-}
 .logo {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+form {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+input {
+    border:none;
+    padding: 0;
+    word-wrap: break-word;
+    display: flex;
+    margin-top: 10px;
+    height: 34px;
+    width: 100%;
+    font-size: 16px;
 }
 nav{
     width: 100%;
@@ -34,13 +33,18 @@ nav{
 }
 nav div{
     display: flex;
-    width: 50%;
+    width: 100%;
     padding: 10px;
-    align-items: center;
 }
 nav div a{
     padding: 5px;
     white-space: nowrap;
     text-decoration: none;
     color: #3b3b3b;
+}
+.search-icon {
+    position: relative;
+    top: 45px;
+    left: -25px;
+    width: 14px;
 }
