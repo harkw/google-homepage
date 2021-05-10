@@ -4,31 +4,31 @@
         <link rel="stylesheet" href="main.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
-    <body> 
-        <nav>
-             <div>
-                 <a class="nav-link" href="#">About</a>
-                 <a class="nav-link" href="#">Store</a>
-             </div>
-             <div> 
-                 <a class="nav-link" href="#">Gmail</a>
-                 <a class="nav-link" href="#">Images</a>
-            </div>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar-links">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+            </ul>
         </nav>
-            <img class="logo" alt="Google-Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
-        <div>
-            <form>
-                <div>
-                    <div class="search-icon">
-                        <span class="material-icons">search</span>
-                    </div>
-                </div>
-                <input class="search" type="text" name="search" id="search">
-                <div id="buttons">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
-                </div>
-            </form>  
+    </header>
+    <body>
+        <div class="container">
+                <img alt="Google-Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></img>
+            <div>
+                <input class="search-bar" type="text">
+            </div>
+            <div class="buttons">
+                <button class="search-button">Google Search</button>
+                <button class="search-button">I'm Feeling Lucky</button>
+            </div>
         </div>
+        <footer>
+           <ul class="footer-links">
+               <li><a href="#">Advertising</a></li>
+               <li><a href="#">Business</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">How Search Works</a></li>
+           </ul>
+        </footer>
     </body>
-</html>
